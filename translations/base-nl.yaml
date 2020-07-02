@@ -283,8 +283,8 @@ ingame:
         placeBuilding: Plaats gebouw
         createMarker: Plaats markering
         delete: Vernietig
-        pasteLastBlueprint: Plak de laatst gekopiëerde blauwdruk
-        lockBeltDirection: Maak gebruik van de lopende band planner
+        pasteLastBlueprint: Plak laatst gekopiëerde blauwdruk
+        lockBeltDirection: Gebruik lopende band planner
         plannerSwitchSide: Draai de richting van de planner
         cutSelection: Knip
         copySelection: Kopieer
@@ -465,7 +465,7 @@ buildings:
     cutter:
         default:
             name: &cutter Knipper
-            description: Knipt vormen van boven naar onder en geeft beiden helften als output. <strong>Als je maar één helft gebruikt, zorg dat je de andere helft vernietigt, anders loopt de machine vast!</strong>
+            description: Knipt vormen verticaal en geeft beiden helften als output. <strong>Als je maar één helft gebruikt, vernietig dan de andere helft, anders loopt de machine vast!</strong>
         quad:
             name: Knipper (Quad)
             description: Knipt vormen in vier delen. <strong>Als je maar één deel gebruikt, zorg dat je de andere delen vernietigt, anders loopt de machine vast!</strong>
@@ -508,7 +508,7 @@ buildings:
             description: Accepteert input van alle kanten en vernietigt het. Voor altijd.
 
         storage:
-            name: Opslag
+            name: Opslagbuffer
             description: Slaat het overschot aan voorwerpen op, tot een zekere hoeveelheid. Kan worden gebruikt als buffer.
 
     hub:
@@ -565,7 +565,7 @@ storyRewards:
             Je hebt een compacte variant van de <strong>verdeler</strong> ontgrendeld - Dit voegt twee lopende banden samen tot één.
 
     reward_cutter_quad:
-        title: Quad Cutting
+        title: Quad knippen
         desc: Je hebt een variant van de <strong>knipper</strong> ontgrendeld - Dit knipt vormen in <strong>vier stukken</strong> in plaats van twee!
 
     reward_painter_double:
@@ -577,7 +577,7 @@ storyRewards:
         desc: Je hebt een variant van de <strong>verver</strong> ontgrendeld - Het verft elk kwadrant van de vorm een andere kleur!
 
     reward_storage:
-        title: Opslag buffer
+        title: Opslagbuffer
         desc: Je hebt een variant van de <strong>vuilnisbak</strong> ontgrendeld - Het slaat voorwerpen op tot een zekere hoeveelheid!
 
     reward_freeplay:
